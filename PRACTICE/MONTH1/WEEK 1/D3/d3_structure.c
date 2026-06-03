@@ -9,11 +9,30 @@
 */
 // DATED - 03/06/2026
 
+
+// SAMPLE CODE HOW THE STRUCTURE WORKS
+
+/* #include <stdio.h>
+#include <conio.h>
+#include <math.h>
+#define PI 3.14
+INT A=50 
+int main()
+{
+    DECLARATION 
+
+    EXECUTION
+}
+
+int main()
+{
+    printf("HELLO WORLD!!");
+} */
+
+
 // PRINT HELLO WORLD 
 #include <stdio.h>
 int main()
 {
     printf("Hello World");
-    getch()
 }
-getch();
