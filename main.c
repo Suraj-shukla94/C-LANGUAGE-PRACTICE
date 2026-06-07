@@ -1,18 +1,24 @@
-// DAY 4
+// DAY 6
 #include <stdio.h>
 
 int main() {
-    int age = 18;
-    float height = 5.9;
-    char grade = 'A';
-    double salary = 50000.75;
-    long population = 1400000000;
+    char name[50];
+    int age;
+    float height;
 
-    printf("Age = %d\n", age);
-    printf("Height = %.1f\n", height);
-    printf("Grade = %c\n", grade);
-    printf("Salary = %.2lf\n", salary);
-    printf("Population = %ld\n", population);
+    printf("Enter your name: ");
+    scanf("%49s", name);
+
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    printf("Enter your height (in meters): ");
+    scanf("%f", &height);
+
+    printf("\n--- Your Details ---\n");
+    printf("Name   : %s\n", name);
+    printf("Age    : %d\n", age);
+    printf("Height : %.2f m\n", height);
 
     return 0;
 }
